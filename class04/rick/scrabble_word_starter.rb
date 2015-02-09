@@ -2,6 +2,8 @@ require 'pry'
 
 class ScrabbleWord
   def initialize(word)
+    # Make the class `initialize` method accept one argument, `word`, and store it as an instance variable called `@word`.
+    @word = word
     @points = {
       'a' => 1,
       'b' => 3,
@@ -30,9 +32,37 @@ class ScrabbleWord
       'y' => 4,
       'z' => 10
     }
-
-    # keep going...
   end
+
+    def word
+      return @word.downcase
+    end
+
+    def word
+      @word = word.downcase
+    end
+
+    def userWord
+     @word.count "#{@word}"
+    end
+
+   def score
+    userScore = 0
+    lettersArray = word.scan(/./)
+
+    scoreArray = lettersArray.map { |letter| @points[letter]  }
+
+    scoreArray.each do |points|
+      userScore = userScore + points
+    end
+
+    return userScore
+    end
+
+    def multiplier_score(multiplier)
+      return score * multiplier
+      
+    end
 
 end
 
