@@ -1,4 +1,4 @@
-# BEWD, January 2015!!!
+# BEWD, January 2015
 
 #### Producer
 - Tim Foley - tim.foley@generalassemb.ly
@@ -21,7 +21,7 @@
 
 ### Week 1: Terminal, Git, Ruby
 
-- **Monday:**
+- **Class-01 (M):**
   - Introduction
   - How the web works
   - Terminal (Command Line)
@@ -29,76 +29,80 @@
     - Data types
     - Variables
   
-- **Wednesday:**
+- **Class-02 (W):**
   - Git & GitHub
   - Conditionals
   - While loops
   
 ### Week 2: Ruby, Ruby, Ruby!
 
-- **Monday:**
+- **Class-03 (M):**
   - Arrays & Hashes
   - Enumerations
 
-- **Wednesday:**
+- **Class-04 (W):**
   - Methods
   - Classes & Instances
   
 ### Week 3: Database & SQL
 
-- **Monday:**
+- **Class-05 (M):**
   - Databases
   - SQL
   - Intro to ActiveRecord
 
-- **Wednesday:**
+- **Class-06 (W):**
   - ActiveRecord
   - Relationships
 
 ### Week 4: Intro to Web Applications
 
-- **Monday:**
-  - TCP/IP
-  - Request Methods
-  - Sinatra
+- **Class-07 (M):**
+  - OFF: President's Day
 
-- **Wednesday:**
+- **Class-08 (W):**
+  - Intro to Web Apps
   - Sinatra
-  - Params
-  - ERB
+  - Routes & ERB
   
 ### Week 5: Ruby on Rails
 
-- **Monday:** 
-  - Rails Intro
-  - Bundler
+- **Class-09 (M):**
+  - Intro to Rails
+  - Bundler + Rake
   - Controllers & Views
 
-- **Wednesday:**
+- **Class-10 (W):**
   - Migrations
-  - One-Model CRUD
-  - Form Helpers
+  - Model Create & Read
 
 ### Week 6: CRUD!!
 
-- **Monday:**
-  - One-to-Many CRUD
+- **Class-11 (M):**
+  - One-model CRUD
+  - Resource helpers + rake routes
+  - Form helpers + partials
+  - Link helpers
+  
+- **Class-12 (W):**
+  - One-to-many CRUD
+  - Nested resources
 
-- **Wednesday:**
-  - Many-to-Many CRUD
+### Week 7: CRUD + APIs
 
-### Week 7: APIs
-
-- **Monday:**
-  - HTTParty
-  - Project ideas & resources
+- **Class-13 (M):**
+  - Many-to-many CRUD
+  - Asset Pipeline (?)
  
-- **Wednesday:**
-  - Nokogiri
+- **Class-14 (W)**
+  - APIs
+  - HTTParty
+  - Start thinking about projects!
 
 ### Week 8: Authentication
 
 - **Monday:**
+  - Authentication
   - Devise Gem
  
 - **Wednesday:**
