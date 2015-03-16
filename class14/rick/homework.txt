@@ -1,0 +1,12 @@
+Contributers:
+
+Aron Ambia
+Steve Williams
+Rick Metzger
+
+
+Github:
+http://github.com/rickymetz/wmata
+
+Heroku:
+https://guarded-reef-5344.herokuapp.com/
