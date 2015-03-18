@@ -13,9 +13,7 @@ end
 # 4) returns the encrypted phrase. 
 
 def encode2(phrase)
-	nospaces = phrase.gsub(" ","+")
-	encryptedns = nospaces.tr("abcdefghijklmnopqrstuvwxyz+","nopqrstuvwxyzabcdefghijklm+")
-	encrypted = encryptedns.gsub("+"," ")
+	encrypted = phrase.tr("abcdefghijklmnopqrstuvwxyz ","nopqrstuvwxyzabcdefghijklm ")
 	puts encrypted
 end
 
