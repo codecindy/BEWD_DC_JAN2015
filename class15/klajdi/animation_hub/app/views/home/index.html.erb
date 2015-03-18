@@ -1,0 +1,9 @@
+<h1>Animation Hub</h1>
+<img src="https://33.media.tumblr.com/50973210f3d538645976979084a6681d/tumblr_mp8p4jRH8f1s8rjdlo1_400.gif">
+
+<% if !user_signed_in? %>
+	<p>New to AnimationHub? <%= link_to 'Sign Up!', new_user_registration_path %></p>
+	<p>Already a member? <%= link_to 'Sign In', new_user_session_path %></p>
+	<% else %>
+	<%= link_to 'Search Gifs', animations_path %>
+<% end %>
