@@ -1,0 +1,18 @@
+<p>Hello <%= current_user.email %>.
+ <%= link_to 'Sign Out', destroy_user_session_path, :method => :delete %></p>
+<h1>Find Animations</h1>
+
+ <form action="<%= animations_path %>" method="get">
+  <label>Search: <input name="query"></label>
+  <button>Submit</button>
+ </form>
+
+ <% @results.each do |result| %>
+  <div><%= image_tag result['images']['fixed_width']['url'] %>
+  	<%= form_for Favorite.new(image_url: result['url'],user_id:@user_id) do |f| %>
+  	<%= f.hidden_field :image_url %>
+  	<%= f.hidden_field :user_id %>
+ 	<%= f.submit 'Add to favorites' %>
+<% end %>
+  </div>
+ <% end %>

@@ -1,0 +1,10 @@
+<h1>In a GIFfy</h1>
+<p>Your desitination for awesome animations</p>
+
+<% if !user_signed_in? %>
+  <p>New to AnimationHub? <%= link_to 'Sign Up!', new_user_registration_path %></p>
+  <p>Already a member? <%= link_to 'Sign in', new_user_session_path %></p>
+<% else %>
+  <p>You are already logged in! <%= link_to 'Start searching', animations_path %></p>
+
+<% end %>
