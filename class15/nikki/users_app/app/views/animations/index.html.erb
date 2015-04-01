@@ -1,0 +1,10 @@
+Welcome <%= current_user.email %>! <%= link_to 'Sign out', destroy_user_session_path, method => :delete %>
+
+<form action="<%= animations_path %>" method = "get">
+<label>Search: <input name = "query"></label>
+<button>Submit</button>
+</form>
+
+<% @results.each do |result| %>
+  <div><%= image_tag result['images']['fixed_width']['url'] %></div>
+  <% end %>
