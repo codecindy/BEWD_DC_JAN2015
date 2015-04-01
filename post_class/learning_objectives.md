@@ -1,4 +1,8 @@
-# Computer Competency
+# Learning Objectives
+
+The following list outlines prevalent concepts and competencies that will help you as a software engineer. Work through this list, and try to grow your knowledge and understanding for each point.
+
+## Computer Competency
 
 **Mechanics**
 
@@ -9,7 +13,7 @@
 - Find text using (cmd+f).
 - Habitualize tab-completion.
 
-# Web Dev 101
+## Web Dev 101
 
 **Concepts**
 
@@ -18,7 +22,7 @@
 - Differentiate between different languages and frameworks.
 - Recall where common technologies (Ruby, Rails, Python, Django, JavaScript, HTML, CSS, etc.) fit into the broad picture.
 
-# Command Line
+## Command Line
 
 **Concepts**
 
@@ -36,7 +40,7 @@
 - Open files and directories using Sublime.
 - Minimize typing by using tab completion.
 
-# Git & Github
+## Git & Github
 
 **Concepts**
 
@@ -59,15 +63,15 @@
 - Add and remove a remote.
 - Use Github to submit a pull request.
 
-# Ruby Basics
+## Ruby Basics
 
 **Concepts**
 
 - Identify some key aspects of Ruby.
-- Describe the different types in Ruby (numbers, strings, etc.)
+- Describe the different basic types in Ruby (numbers, strings, etc.)
 - Explain what memory is and how it differs from storage systems.
 - Explain what a reference is and how it relates to variable assignment.
-- Describe the two forms of variable assignment used by programming languages.
+- Describe the two forms of variable assignment used by programming languages (by value versus by reference).
 
 **Mechanics**
 
@@ -80,36 +84,36 @@
 - Get input from the user from the terminal using `gets`.
 - Print output to the terminal using `puts`.
 
-# Ruby Control Flow
+## Ruby Control Flow
 
 **Concepts**
 
-- Compare if/else statements to case statments and explain when you would use each.
-- Compare while loops to enumeration and explain when you would use each.
+- Compare `if/else` statements to `case` statments and explain when you would use each.
+- Compare `while` loops to enumeration and explain when you would use each.
 
-#### Mechanics
-- Use boolean logic (&&, ||, !) to combine and manipulate boolean statements.
-- Use if, else, elsif statements to control logic flow in a Ruby program.
-- Use Ruby case statements.
+**Mechanics**
+
+- Use boolean logic (`&&`, `||`, `!`) to combine and manipulate boolean statements.
+- Use `if`, `else`, `elsif` statements to control logic flow in a Ruby program.
+- Use Ruby `case` statements.
 - Use while loops to execute code multiple times.
 - Set and update a condition to avoid infinite loops.
 
-# Ruby Methods
+## Ruby Methods
 
 **Concepts**
 
 - Explain the principle of DRY.
 - Explain what a method is and why it is useful.
-- Define the terms `call` and `invoke` as they relate to methods.
 - Define the terms `arguments` and `parameters`.
 
-#### Mechanics
+**Mechanics**
 
 - Define and use methods with arguments.
 - Return values from a method.
-- Debug a Ruby program using binding.pry.
+- Debug a Ruby program using `binding.pry`.
 
-# Ruby Collections
+## Ruby Collections
 
 **Concepts**
 
@@ -118,13 +122,13 @@
 - Compare and contrast arrays and hashes and when you would use each.
 - Explain the difference between a string and a symbol and when you would use each.
 
-#### Mechanics
+**Mechanics**
 
 - Create an array, access items in an array, change the value of items in an array.
 - Create a hash, access items in a hash, change the value of items in a hash.
 - Create, access items in, change the value of items in, and manipulate items in nested collections (arrays & hashes).
 
-# Blocks & Enumeration
+## Blocks & Enumeration
 
 **Concepts**
 
@@ -136,18 +140,18 @@
 - Explain the difference between `.each` and `.map` and when you would use each one.
 - Identify when and how to use the enumerator methods  `.each`, `.map`, `.join`, `.select`, `.reduce`.
 
-#### Mechanics
+**Mechanics**
 
-- Use built in Ruby methods to enumerate over a collection.
+- Use built-in Ruby methods to enumerate over a collection.
 
-# File I/O
+## File I/O
 
-#### Mechanics
+**Mechanics**
 
 - Read data in from a file and parse it.
 - Write data to a file.
 
-# Ruby Objects
+## Ruby Objects
 
 **Concepts**
 
@@ -162,7 +166,7 @@
 - Explain the use of `super` in Ruby.
 - Explain the difference between public and private methods.
 
-#### Mechanics
+**Mechanics**
 
 - Write a class with an initialize method.
 - Write getter and setter methods.
@@ -175,50 +179,41 @@
 
 **Concepts**
 
-- Contrast the agile and waterfall approaches to developing software.
 - Explain what BDD/TDD is and its benefits. Compare it to "cowboy coding."
 - Explain what a Unit Test is.
 - Explain what RSpec is.
 
-#### Mechanics
+**Mechanics**
 
 - Read Rspec tests that have already been written for a Ruby program and make them pass one at a time
 - Set up a Ruby program with RSpec
+- Set up RSpec tests using:
+	- `describe`
+	- `it`
+- Write tests using expectations:
+	- `to` and `not_to`
+	- `eq`, `eql`, `equal`
+	- `be_true`, `be_false`
+- DRY up Rspec tests using:
+	- `let`
+	- `subject`
+	- `context`
+	- `before`
 
-**Set up RSpec tests using**
-- `describe`
-- `it`
-
-**Write tests using expectations**
-- `to` and `not_to`
-- `eq`, `eql`, `equal`
-- `be_true`, `be_false`
-
-**DRY up Rspec tests using**
-- `let`
-- `subject`
-- `context`
-- `before`
-
-# Problem Modeling
+## Problem Modeling
 
 **Concepts**
 
-- Create a domain model by listing its parts (entities, relationships, attributes and behavior).
+- Create a domain model by listing its parts (entities, relationships, attributes, and behavior).
 - Draw an ERD using proper notation.
 
-# Software Design
+## Software Design
 
 **Concepts**
 
-Explain and follow the principles of good software design.
+- Explain and follow the principles of good software design: Tested, DRY, Naming, Small.
 
-- Tested
-- DRY
-- Naming
-- Small
-
-# Database & SQL
+## Database & SQL
 
 **Concepts**
 
@@ -232,30 +227,24 @@ Explain and follow the principles of good software design.
 - Explain what a foreign key is and why you would use one.
 - Explain what a SQL join is and when you would use one.
 
-#### Mechanics
+**Mechanics**
 
 - Design a database schema
-
-Use SQL to structure your schema:
-
-- `CREATE DATABASE / CREATE TABLE`
-- `DROP DATABASE / DROP TABLE`
-- `ALTER TABLE`
-
-Use SQL to access your data:
-
-- `SELECT`
-- `INSERT`
-- `DELETE`
-
-Modify SQL queries:
-
-- `AS`
-- `WHERE`
-- `ORDER BY`
-- `SUM`
-- `COUNT`
-- `AVERAGE`
+- Use SQL to structure your schema:
+	- `CREATE DATABASE / CREATE TABLE`
+	- `DROP DATABASE / DROP TABLE`
+	- `ALTER TABLE`
+- Use SQL to access your data:
+	- `SELECT`
+	- `INSERT`
+	- `DELETE`
+- Modify SQL queries:
+	- `AS`
+	- `WHERE`
+	- `ORDER BY`
+	- `SUM`
+	- `COUNT`
+	- `AVERAGE`
 
 ## Gems & Extensions
 
@@ -267,87 +256,88 @@ Modify SQL queries:
 
 ## ActiveRecord
 
-#### Concepts
-- Explain what an ORM is and why we use it (vs. writing SQL)
-- Explain what ActiveRecord is
-- Explain the basic idea of metaprogramming and how AR leverages this to provide an interface to the DB
-- Predict the SQL commands that will be issued during particular AR method calls
-- Distinguish between when data is stored in memory vs when it is stored in the database
-- Explain the use and usefulness of AR validations and how they affect persistence
-- Compare and contrast SQL constraints with AR Validations
-- Explain how we use AR to manage relationships
+**Concepts**
 
-#### Mechanics
+- Explain what an ORM is and why we use it (vs. writing SQL).
+- Explain what ActiveRecord is.
+- Explain the basic idea of metaprogramming and how AR leverages this to provide an interface to the DB.
+- Predict the SQL commands that will be issued during particular AR method calls.
+- Distinguish between when data is stored in memory vs when it is stored in the database.
+- Explain the use and usefulness of AR validations and how they affect persistence.
+- Compare and contrast SQL constraints with AR Validations.
+- Explain how we use AR to manage relationships.
+- Explain what model validation errors are and describe how we access them.
+
+**Mechanics**
+
 Use ActiveRecord commands:
-- new
-- save
-- create
-- all
-- find
-- find_by
-- where
-- update
-- destroy
+
+- `new`
+- `save`
+- `create`
+- `all`
+- `find`
+- `find_by`
+- `where`
+- `update`
+- `destroy`
 
 Set up the following validations:
-- presence
-- uniqueness
-- numericality
-- length
 
-- Set up an ActiveRecord Association for a one-to-many relationship
-- Set up an ActiveRecord Association for a many-to-many relationship
+- `presence`
+- `uniqueness`
+- `numericality`
+- `length`
 
-## Shoulda Matchers
-
-### Concepts
-- Explain what shoulda matchers are and why they are useful
-
-### Mechanics
-- Use shoulda matchers for model validation
-- Use shoulda matchers for ActiveRecord associations
+- Set up an ActiveRecord Association for a one-to-many relationship.
+- Set up an ActiveRecord Association for a many-to-many relationship.
 
 ## Networking
 
-### Concepts
-- Define what a communications protocol is
-- Name the four basic layers of the Internet Protocol Suite (the TCP/IP stack)
-- Describe the Internet Protocol(IP) and what problems it solves
-- Describe the Transmission Control Protocol (TCP) and what problems it solves
+**Concepts**
+
+- Define what a communications protocol is.
+- Name the four basic layers of the Internet Protocol Suite (the TCP/IP stack).
+- Describe the Internet Protocol(IP) and what problems it solves.
+- Describe the Transmission Control Protocol (TCP) and what problems it solves.
 - Describe the Hypertext Transfer Protocol (HTTP) and explain what a HTTP Request is.
-- Explain what a port is
-- Describe the parts of a url in detail
+- Explain what a port is.
+- Describe the parts of a url in detail.
 
-## Sinatra Basics
+## Sinatra
 
-### Concepts
-- Describe what Sinatra is and what it is used for
-- Define what WEBrick and Rack are
-- Distinguish between a route and a path
+**Concepts**
 
-### Mechanics
+- Describe what Sinatra is and what it is used for.
+- Define what WEBrick and Rack are.
+- Distinguish between a route and a path.
+
+**Mechanics**
+
 - Build a Sinatra app that responds to HTTP requests
 - Define routes using Sinatra
 - Define routes with URL paramters and access those parameters
 
-## Sinatra with HTML & ERB
+## Views & ERB
 
-### Concepts
-- Explain the idea of "separation of concerns" and why it is so important
-- Explain the different roles of HTML, CSS & JavaScript
-- Explain what the "DOM" is
-- Explain what SEO is and what affects it
-- Explain what Accessibility is and why it is important
+**Concepts**
 
-### Mechanics
-- Create an HTML page and use common tags
-- Use ERB templates to create dynamic pages and render views
-- Pass values into views using instance variables
-- Include an external stylesheet in a Sinatra app 
+- Explain the idea of "separation of concerns" and why it is so important.
+- Explain the different roles of HTML, CSS & JavaScript.
+- Explain what the "DOM" is.
+- Explain what SEO is and what affects it.
+- Explain what Accessibility is and why it is important.
 
-## Sinatra CRUD
+**Mechanics**
 
-### Concepts
+- Create an HTML page and use common tags.
+- Use ERB templates to create dynamic pages and render views.
+- Pass values into views using instance variables.
+- Include an external stylesheet in a Sinatra app.
+
+## CRUD
+
+**Concepts**
 
 - Explain what "persistent storage" refers to.
 - Explain what CRUD is, and what it pertains to.
@@ -356,51 +346,16 @@ Set up the following validations:
 - Explain the parts of a URL in detail, including the query and fragment.
 - Explain the difference between GET and POST and when you would use each.
 - Describe, in simple terms, the premise of REST.
-- Write a form that formats parameters as expected by the server
-- Handle parameters (url parameters & form parameters)
+
+**Mechanics**
+
+- Write a form that formats parameters as expected by the server.
+- Handle parameters (url parameters & form parameters).
 - Use Sinatra/HTTP as a user interface to a database backed app (ActiveRecord).
-
-## Web Accessibility / SEO
-
-### Concepts
-- Define some common content accessibility considerations.
-- Explain what the Document Outline is, and why it's important.
-- Define what Section 508c is, and explain common requirements that address it.
-- Define what WCAG is, and explain common requirements that adddress it.
-- Define what ARIA roles are, and what they're used for.
-- Explain image "alt" texts, and what they're used for.
-- Explain cross-browser compatibility, and name a few major concerns.
-- Explain what SEO is, and why it's important.
-- Explain what the document <title> tag is, and why it's important.
-
-### Mechanics
-- Create an HTML document outline based on content heirarchy.
-- Configure ARIA roles on major content divisions.
-
-## Layout
-
-### Concepts
-- Explain what CSS is.
-- Define the three places that CSS styles can go.
-- Explain what selectors are, and how they target HTML elements.
-- Explain what selector specificity is, and how it is calculated.
-- Explain the major parts of the box model.
-- Explain the difference between inline and block elements.
-- Explain document flow, and how floats/positioning changes it.
-- Explain the difference between absolute and relative positioning.
-- Explain what problems ID selectors and "!important" styles cause.
-- Describe the benefits of alphabetizing style rules.
-
-### Mechanics
-- Create an external stylesheet, and link it into an HTML document.
-- Use basic styles to set fonts, sizes, colors, backgrounds, etc.
-- Use basic block styles to set element padding, margins, borders, etc.
-- Use "float" to shift elements within a layout.
-- Use "position" to arrange elements within a layout.
 
 ## Rails
 
-### Concepts
+**Concepts**
 
 - Explain what Ruby on Rails is, and why it's so popular.
 - Explain what "convention over configuration" means and how it applies to Rails.
@@ -414,8 +369,9 @@ Set up the following validations:
 - Describe the lifecycle of an HTTP request in Rails.
 - Describe what strong parameters are, and what problem they address.
 - Explain what the Asset Pipeline is.
+- Explain what a helper module is and why we would use one.
 
-### Mechanics
+**Mechanics**
 
 - Create a new Rails project and a database for it (using Rake).
 - Create a new database migration, configure it, run it, and roll it back.
@@ -427,47 +383,14 @@ Set up the following validations:
 - Use helpers to create resource links and forms.
 - Update resources using strong parameters with whitelisted keys.
 - Include images and CSS in the assets directory.
-
-
-## Agile Workflow
-
-### Concepts
-
-- Provide a general overview of what "Agile" means.
-- Explain what SCRUM is, and how it relates to agile.
-- Describe the process of requirements gathering.
-- Explain what a user story is, and what specific points it should include.
-- Describe what the backlog is, and how it gets prioratized.
-- Describe what a sprint is, and the major parts of a sprint cycle.
-- Describe what a wireframe is, and what it accomplishes.
-- Describe the structure of a daily scrum meeting.
-- Explain what Pivotal Tracker is and why we use it.
-
-### Mechanics
-
-- Distill project requirements into user stories.
-- Prioritize a backlog, and plan a sprint.
-- Wireframe intended application flow before starting work.
-
-
-## BDD & Testing
-
-### Concepts
-
-- Explain the difference between unit tests and acceptance tests.
-- Explain what Capybara is, and what it accomplishes.
-- Explain the benefit of testing using an element's ID rather than its display text.
-
-### Mechanics
-
-- Write unit tests for models using Rspec and Shoulda Matchers
-- Write acceptance tests for routes and controllers using Rspec and Capybara.
-- Compose acceptance tests for a complete CRUD workflow.
-
+- Print out error messages for an invalid form submission.
+- Print out a flash message from a controller into a view.
+- Render a view partial with passed local variables.
+- Write and include custom helper methods
 
 ## Authentication
 
-### Concepts
+**Concepts**
 
 - Provide a high-level explanation of what Authentication is.
 - Explain the difference between session data and cookie data.
@@ -477,7 +400,7 @@ Set up the following validations:
 - Describe what a database index is, and why we'd add one for common field lookups.
 - Describe what the ActiveRecord `has_secure_password` method does.
 
-### Mechanics
+**Mechanics**
 
 - Create a user model that validates fields and implements `has_secure_password`.
 - Create a users controller that handles user signups.
@@ -487,29 +410,52 @@ Set up the following validations:
 
 ## APIs
 
-### Concepts
+**Concepts**
 
-- Explain what an API is and what it stands for
-- Explain what JSON is and what it stands for
-- Explain why is JSON language-agnostic
-- Explain what HTTParty is and what it does
+- Explain what an API is and what it stands for.
+- Explain what JSON is and what it stands for.
+- Explain why is JSON language-agnostic.
+- Explain what HTTParty is and what it does.
 
-### Mechanics
+**Mechanics**
 
-- Access data via an API
+- Access data via an API.
 - Parse and output API data into an application view.
 
+## Agile Workflow
 
-## More Rails
+**Concepts**
 
-### Concepts
+- Provide a general overview of what "Agile" means.
+- Contrast the agile and waterfall approaches to developing software.
+- Explain what SCRUM is, and how it relates to agile.
+- Describe the process of requirements gathering.
+- Explain what a user story is, and what specific points it should include.
+- Describe what the backlog is, and how it gets prioratized.
+- Describe what a sprint is, and the major parts of a sprint cycle.
+- Describe what a wireframe is, and what it accomplishes.
+- Describe the structure of a daily scrum meeting.
+- Explain what Pivotal Tracker is and why we use it.
 
-- Explain what model validation errors are and describe how we access them
-- Explain what a helper module is and why we would use one
+**Mechanics**
 
-### Mechanics
+- Distill project requirements into user stories.
+- Prioritize a backlog, and plan a sprint.
+- Wireframe intended application flow before starting work.
 
-- Print out error messages for an invalid form submission.
-- Print out a flash message from a controller into a view.
-- Render a view partial with passed local variables.
-- Write and include custom helper methods
+## BDD & Testing
+
+**Concepts**
+
+- Explain the difference between unit tests and acceptance tests.
+- Explain what Capybara is, and what it accomplishes.
+- Explain the benefit of testing using an element's ID rather than its display text.
+- Explain what shoulda matchers are and why they are useful.
+
+**Mechanics**
+
+- Write unit tests for models using Rspec and Shoulda Matchers.
+- Write acceptance tests for routes and controllers using Rspec and Capybara.
+- Compose acceptance tests for a complete CRUD workflow.
+- Use shoulda matchers for model validation.
+- Use shoulda matchers for ActiveRecord associations.
