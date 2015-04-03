@@ -1,0 +1,17 @@
+<h1>Find Animations</h1>
+
+<p>Hello <%= current_user.email %>
+	<br>
+<%= link_to 'Sign Out', destroy_user_session_path, :method => :delete %></p>
+
+<form action="<%= animations_path %>" method = "get">
+<label> Search: <input name="query"></label>
+<button>Submit</button>
+</form>
+<br>
+<% @results.each do |result| %>
+<div><%= image_tag result['images'] ['fixed_width'] ['url'] %></div>
+<br>
+<% end %>
+
+
