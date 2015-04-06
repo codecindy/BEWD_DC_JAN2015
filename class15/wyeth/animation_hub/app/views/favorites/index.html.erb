@@ -1,0 +1,7 @@
+<h1>Favorites</h1>
+
+ <ul>
+  <% @favorites.each do |favorite| %>
+    <li><a href="/animation/<%= favorite.user_id %>"><%= favorite.image_url %></a></li>
+  <% end %>
+ </ul>
